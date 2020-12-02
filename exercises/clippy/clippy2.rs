@@ -7,5 +7,8 @@ fn main() {
     if let Some(x) = option {
         res += x;
     }
+    // for x in option {
+    //     res += x;
+    // }
     println!("{}", res);
 }

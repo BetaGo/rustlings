@@ -2,7 +2,7 @@
 // Make me compile! Execute `rustlings hint functions5` for hints :)
 
 fn main() {
-    let answer = square(3);
+    let answer: i32 = square(3);
     println!("The answer is {}", answer);
 }
 
